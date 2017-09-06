@@ -23,11 +23,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grey is boring. Choose a color!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Il-DR-DXM">
-                                <rect key="frame" x="88" y="311" width="200" height="46.5"/>
+                                <rect key="frame" x="88" y="306" width="200" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="aeN-Tb-WyG"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -44,7 +44,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="e0v-UR-ixb">
                             <color key="tintColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="4IP-1j-TTG" kind="show" id="fef-sj-TPZ"/>
+                                <segue destination="4IP-1j-TTG" kind="show" identifier="presentColorPickerVC" id="fef-sj-TPZ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
